@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 360px;
+    padding: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+.card {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background: linear-gradient(45deg, rgb(0, 70, 0), rgb(0, 150, 0));
+    text-align: center;
+    line-height: 100px;
+    color: rgb(240, 240, 240);
+    font-size: 30px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
