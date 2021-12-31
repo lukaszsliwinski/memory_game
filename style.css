@@ -33,3 +33,42 @@ body {
 .card:hover {
     cursor: pointer;
 }
+
+.uncovered > span {
+    color: transparent;
+}
+
+
+
+/* Card colors */
+
+#C1.uncovered,
+#C8.uncovered {
+    background: blue;
+}
+
+#C2.uncovered,
+#C4.uncovered {
+    background: purple;
+}
+
+#C3.uncovered,
+#C10.uncovered {
+    background: green;
+}
+
+#C5.uncovered,
+#C12.uncovered {
+    background: orange;
+}
+
+#C6.uncovered,
+#C11.uncovered {
+    background: yellow;
+}
+
+#C9.uncovered,
+#C7.uncovered {
+    background: red;
+}
+
