@@ -4,15 +4,15 @@ body {
 }
 
 .container {
-    height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    height: 100vh;
 }
 
 .app {
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
     width: 700px;
     height: 360px;
     padding: 15px;
@@ -21,14 +21,14 @@ body {
 
 .card {
     display: inline-block;
+    margin: 10px;
     width: 150px;
     height: 100px;
-    margin: 10px;
     background: linear-gradient(45deg, rgb(0, 70, 0), rgb(0, 150, 0));
-    text-align: center;
-    line-height: 100px;
-    color: rgb(240, 240, 240);
     font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    color: rgb(240, 240, 240);
 }
 
 .card:hover {
@@ -38,7 +38,6 @@ body {
 .uncovered > span {
     color: transparent;
 }
-
 
 
 /* Card colors */
@@ -78,4 +77,3 @@ body {
     background: none;
     background-color: red;
 }
-

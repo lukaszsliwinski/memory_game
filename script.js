@@ -2,12 +2,11 @@ let card1;
 let card2;
 let backgroundColor1;
 let backgroundColor2;
-let timeout;
 
 
 // Cover cards if their colors are not the same
 function coverAgain(card1, card2) {
-    timeout = setTimeout(
+    setTimeout(
         function(){
             card1.classList.remove('uncovered');
             card2.classList.remove('uncovered');
