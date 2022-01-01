@@ -1,7 +1,7 @@
 # Memory game
 
 ## About
-Simply memory game with colors.
+Simply memory game with colors made for practice JavaScript skills.
 
 ## Used technologies
 HTML5<br>
