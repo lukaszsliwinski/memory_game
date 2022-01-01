@@ -6,7 +6,7 @@ Simply memory game with colors made for practice JavaScript skills.
 ## Used technologies
 HTML5<br>
 CSS3<br>
-Javascript
+JavaScript
 
 ## Setup and run (Windows)
 1 Install node.js from website:<br>
@@ -17,14 +17,14 @@ npm install -g http-server
 ```
 3 Download repository
 ```bash
-git clone https://github.com/lukaszsliwinski/simply_metronome
+git clone https://github.com/lukaszsliwinski/memory_game
 ```
 4 Go into main directory
 ```bash
-cd simply_metronome
+cd memory_game
 ```
 5 Run app on localhost - in main directory run:
 ```bash
 http-server
 ```
-6 Run http://127.0.0.1:8080/metronome.html in browser
+6 Run http://127.0.0.1:8080/memory.html in browser
