@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
 }
 
 .container {
@@ -44,31 +45,37 @@ body {
 
 #C1.uncovered,
 #C8.uncovered {
-    background: blue;
+    background: none;
+    background-color: blue;
 }
 
 #C2.uncovered,
 #C4.uncovered {
-    background: purple;
+    background: none;
+    background-color: purple;
 }
 
 #C3.uncovered,
 #C10.uncovered {
-    background: green;
+    background: none;
+    background-color: rgb(0, 195, 0);
 }
 
 #C5.uncovered,
 #C12.uncovered {
-    background: orange;
+    background: none;
+    background-color: orange;
 }
 
 #C6.uncovered,
 #C11.uncovered {
-    background: yellow;
+    background: none;
+    background-color: yellow;
 }
 
 #C9.uncovered,
 #C7.uncovered {
-    background: red;
+    background: none;
+    background-color: red;
 }
 
